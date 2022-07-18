@@ -1,0 +1,36 @@
+body {
+	background-color: #D6E1EF;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px 30px;
+	font-family: Outfit;
+	font-size: 1rem;
+	text-align: center;
+	display: flex;
+}
+
+.Card {
+	width: 350px;
+	margin: auto;
+	background: #E9FEFF;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 15px;
+	color: #212B40;
+	box-shadow: 0px 10px 5px #C4D1E8
+}
+
+.ContainerImage > img {
+	width: 100%;
+	border-radius: 15px
+}
+
+.TextCard > h3 {
+	font-size: 1.5rem
+} 
+
+.TextCard > p {
+	color: #AFB1BC
+} 
+
